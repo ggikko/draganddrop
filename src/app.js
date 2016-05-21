@@ -6,19 +6,23 @@ class App {
     constructor() {
         this.setComponent();
 
-        debugger;
-
     }
 
     setComponent(){
-        this.oDroppable = new Droppable({
-            className: '.droppable'
-        });
+
+        // this.oDraggable = new Droppable({
+        //     className: '.rec1'
+        // });
 
         this.oDraggable = new Draggable({
-            className: '.draggable'
+            className: '.rec2'
         });
+
+        // this.dragComponent = new Draggable({
+        //     object : $('.rec.rec2')
+        // });
     }
+
 }
 
 export default new App();

@@ -15,18 +15,18 @@
         span{cursor:inherit}
 
         .wrap{overflow:hidden;position:relative;height:1000px;user-select:none;-webkit-user-select: none;}
-        .area{overflow:hidden;display:inline-block;width:100px;height:100px;background:#999;line-height:100px;text-align:center;color:#fff}
-        .droppable{position:absolute;top:10px;left:10px;width:150px;height:150px;line-height:150px;border:3px dashed #f00;background: #333}
-        .draggable{cursor:pointer;position:absolute;top:300px;left:80px;border:3px solid #0f0}
+        .rec{overflow:hidden;display:inline-block;width:100px;height:100px;background:#999;line-height:100px;text-align:center;color:#fff}
+        .rec1{position:absolute;top:10px;left:10px;width:150px;height:150px;line-height:150px;border:3px dashed #f00;background: #333}
+        .rec2{cursor:pointer;position:absolute;top:300px;left:80px;border:3px solid #0f0}
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="area draggable">
-            <span>Draggable</span>
+        <div class="rec rec1">
+            <span>rec1</span>
         </div>
-        <div class="area droppable">
-            <span>Droppable</span>
+        <div class="rec rec2">
+            <span>rec2</span>
         </div>
     </div>
     <script src="./js/bundle.js"></script>
