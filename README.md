@@ -1,2 +1,2 @@
 # draganddrop
-es6 + webpack
+Js + es6 + webpack
